@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  color: #fff;
+}
+
+body {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url(/images/bg-intro-desktop.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  margin: 30px 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  padding: 30px 40px;
+}
+
+.text .title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.text .description {
+  font-size: 16px;
+}
+
+.formContainer {
+}
+
+.formContainer .discountContainer {
+  background-color: hsl(248, 32%, 49%);
+  width: 400px;
+  font-size: 10px;
+  padding: 20px 40px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.formContainer .discountContainer p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.formContainer .discountContainer p strong {
+  font-family: 400;
+}
+
+.formContainer .discountContainer h1 .formContainer .form {
+  width: 400px;
+  background-color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 20px 0;
+}
+
+.formContainer .form {
+  padding: 50px 0;
+  max-width: 400;
+  border-radius: 12px;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+input {
+  min-width: 360px;
+  margin: 10px 0 0 20px;
+  padding: 10px;
+  border-radius: 7px;
+  border: solid 1px black;
+  color: black;
+}
+
+.input[text]:focus {
+  border: solid 1px hsl(248, 32%, 49%);
+}
+
+strong {
+  font-family: 400;
+}
+
+#btn {
+  background-color: hsl(154, 59%, 51%);
+  min-width: 360px;
+  margin: 10px 0 0 20px;
+  padding: 10px;
+  border-radius: 7px;
+  border: solid 3px hsl(152, 27%, 43%);
+}
+
+#btn:hover {
+  cursor: pointer;
+  box-shadow: 1px 2px 0px hsl(152, 27%, 43%);
+}
+
+.lastLine {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.lastLine p {
+  color: hsl(249, 10%, 26%);
+  font-size: 8px;
+}
+
+.lastLine a {
+  color: hsl(0, 100%, 74%);
+}
+
+@media screen and (max-width: 850px) {
+}
+
+@media screen and (max-width: 569px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.3s ease;
+  }
+}
+
+@media screen and (max-width: 410px) {
+}
